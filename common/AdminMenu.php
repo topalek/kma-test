@@ -3,7 +3,6 @@
 namespace app\common;
 
 use hail812\adminlte\widgets\Menu;
-use yii\base\Widget;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Html;
 use yii\helpers\Url;
@@ -157,5 +156,4 @@ class AdminMenu extends Menu
             '{target}' => isset($item['target']) ? 'target="' . $item['target'] . '"' : ''
         ]);
     }
-
 }
